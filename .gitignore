@@ -1,0 +1,53 @@
+# Lingkungan Python
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Cache pengujian dan notebook
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.ipynb_checkpoints/
+.ruff_cache/
+.mypy_cache/
+
+# Pengaturan editor dan sistem operasi
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Rahasia dan log
+.env
+.env.*
+!.env.example
+*.log
+
+# Dataset mentah disediakan melalui petunjuk README
+/data/*
+
+# Model: hanya folder kandidat final yang disertakan
+/models/*
+!/models/blend_refinement_xgb75_v09/
+
+# Artefak eksperimen besar
+*.joblib
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.parquet
+*.zip
+
+# Model final diperlukan untuk menjalankan API
+!/models/blend_refinement_xgb75_v09/model.joblib
+
+# Laporan eksperimen individual tetap lokal
+/reports/experiments/
+/reports/audits/

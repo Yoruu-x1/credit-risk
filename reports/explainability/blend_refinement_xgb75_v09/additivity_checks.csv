@@ -1,0 +1,4 @@
+model,max_absolute_error
+xgb,4.2870163119435034e-07
+lgbm,2.7774298971827704e-08
+weighted_blend,3.229229259549271e-07

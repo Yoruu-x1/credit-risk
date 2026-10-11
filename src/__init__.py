@@ -1,0 +1,1 @@
+"""Modul proyek German Credit Risk API."""

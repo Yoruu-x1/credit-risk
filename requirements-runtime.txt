@@ -1,0 +1,20 @@
+-c requirements.txt
+
+# API
+fastapi
+pydantic
+uvicorn
+
+# Model dan preprocessing
+numpy
+pandas
+scipy
+scikit-learn
+xgboost
+lightgbm
+joblib
+
+# Penjelasan model
+shap
+numba
+matplotlib
